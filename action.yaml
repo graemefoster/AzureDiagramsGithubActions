@@ -36,7 +36,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - run: dotnet tool install --global AzureDiagramGenerator --version 0.6.30
+    - run: dotnet tool install --global AzureDiagramGenerator --version 0.6.31
       shell: bash
     - run: |
         AzureDiagramGenerator --subscription-id "${{ inputs.subscriptionId }}" \
