@@ -1,4 +1,4 @@
-name: 'graemefoster-azurediagrams-composite-action'
+name: 'generate-azurediagram'
 description: 'Runs AzureDiagramGenerator (as dotnet tool)'
 branding:
   icon: 'command'
@@ -9,9 +9,6 @@ inputs:
     required: true
   resourceGroup:
     description: 'Azure Resource Group to match on. Regexes supported. Also * can be used as a simple non greedy wildcard (he*o) will match a resource group called hello'
-    required: true
-  accessToken:
-    description: 'Access Token that can read the resources'
     required: true
   condensed:
     description: 'Collapse private endpoints / vm disks to produce a simple view. Useful for large architectures'
