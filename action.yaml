@@ -1,4 +1,4 @@
-name: 'generate-azurediagram'
+name: 'azurediagramsgithubactions'
 description: 'Runs AzureDiagramGenerator (as dotnet tool)'
 branding:
   icon: 'command'
