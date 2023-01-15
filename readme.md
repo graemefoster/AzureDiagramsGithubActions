@@ -33,8 +33,8 @@ Here's an example that:
 |:------------------|:----------|:-----------------------------------------------------------------------------|
 | subscriptionId    | Yes       | Subscription Id to run against                                               |
 | resourceGroup     | Yes       | Wildcard enabled resource group name (supports multiple)                     |
-| accessToken       | Yes       | Optional JWT to avoid using CLI credential                                   |
 | outputFileName    | Yes       | Filename to write Draw.Io output                                             |
+| accessToken       | No        | Optional JWT to avoid using CLI credential                                   |
 | condensed         | No        | True collapses private endpoints into subnets (can simplify large diagrams)  |
 | showRuntime       | No        | True to show runtime flows defined on the control plane                      |
 | showInferred      | No        | True to infer connections between resources by introspecting appSettings     |
