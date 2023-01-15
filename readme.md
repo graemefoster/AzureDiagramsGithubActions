@@ -4,11 +4,10 @@
 
 ### Github Action
 
-First, run az login
-
 Here's an example that:
-- use the Custom Github Action to generate a draw.io diagram
-- publish the diagram as an artefact.
+
+- Uses the Custom Github Action to generate a draw.io diagram
+- Uploads the diagram as an artifact in your action.
 
 ```yaml
       - uses: azure/login@v1
