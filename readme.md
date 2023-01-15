@@ -34,13 +34,12 @@ Here's an example that:
 | subscriptionId    | Yes       | Subscription Id to run against                                               |
 | resourceGroup     | Yes       | Wildcard enabled resource group name (supports multiple)                     |
 | accessToken       | Yes       | Optional JWT to avoid using CLI credential                                   |
-| condensed         | Yes       | True collapses private endpoints into subnets (can simplify large diagrams)  |
-| showRuntime       | Yes       | True to show runtime flows defined on the control plane                      |
-| showInferred      | Yes       | True to infer connections between resources by introspecting appSettings     |
-| showIdentity      | Yes       | True to show User Assigned Managed Identity connections                      |
-| showDiagnostics   | Yes       | True to show diagnostics flows                                               |
-| outputPng         | Yes       | True to export a png of the draw.io diagram                                  |
-
+| outputFileName    | Yes       | Filename to write Draw.Io output                                             |
+| condensed         | No        | True collapses private endpoints into subnets (can simplify large diagrams)  |
+| showRuntime       | No        | True to show runtime flows defined on the control plane                      |
+| showInferred      | No        | True to infer connections between resources by introspecting appSettings     |
+| showIdentity      | No        | True to show User Assigned Managed Identity connections                      |
+| showDiagnostics   | No        | True to show diagnostics flows                                               |
 
 ## Output Formats
 The initial version supports Draw.IO diagrams. 
