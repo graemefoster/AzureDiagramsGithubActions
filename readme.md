@@ -10,14 +10,13 @@ Here's an example that:
 - use the Custom Github Action to generate a draw.io diagram
 - publish the diagram as an artefact.
 
-
 ```yaml
       - uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Generate Diagram
-        uses: graemefoster/azurediagramsgithubactions@v0.1.1
+        uses: graemefoster/azurediagramsgithubactions@v0.1.8
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           resourceGroup: "*-grf-*"
