@@ -15,7 +15,7 @@ Here's an example that:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Generate Diagram
-        uses: graemefoster/azurediagramsgithubactions@v0.1.9
+        uses: graemefoster/azurediagramsgithubactions@v0.1.10
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           resourceGroup: "*-grf-*"
